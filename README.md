@@ -10,29 +10,33 @@ The official code repository for DeepPS. This repository provides the complete i
 
 ## 1\. Recommended directory layout
 
-```
-DeepPS/                    # this repository; run commands here
-runs/v200918\\\_massivekb46/
-  best\\\_model.pt                      # V20 checkpoint
-piprime\\\_embedding/piprime\\\_embedding/
+```text
+DeepPS/                              # this repository; run commands here
+runs/deepps_massivekb46/
+  best_model.pt                      # DeepPS checkpoint
+
+piprime_embedding/piprime_embedding/
   model.ckpt                         # PiPrime checkpoint
-  mgf\\\_to\\\_embedding\\\_batch.py          # MGF -> NPZ embedding entry
-  encoder\\\_only.py                    # encoder implementation used for embeddings
-  piprime\\\_utils.py                   # peak processing and configuration
-  run\\\_iterative\\\_correction.py        # called in-process by rescoring
+  mgf_to_embedding_batch.py          # MGF -> NPZ embedding entry
+  encoder_only.py                    # encoder implementation used for embeddings
+  piprime_utils.py                   # peak processing and configuration
+  run_iterative_correction.py        # called in-process by rescoring
   PrimeNovo/                         # PiPrime dependency package
   depthcharge/                       # PrimeNovo dependency
-MSGFPlus\\\_v20240326/
+
+MSGFPlus_v20240326/
   MSGFPlus.jar                       # MS-GF+
   MzidToTsvConverter/
     MzidToTsvConverter.exe           # mzid -> TSV
-v20\\\_data/                            # dataset files
-  \\\*/\\\*.mgf
-  \\\*/\\\*.fasta
-v20\\\_output/                          # all results (created by commands)
+
+deepps_data/                         # dataset files
+  */*.mgf
+  */*.fasta
+
+deepps_output/                       # all results created by DeepPS pipelines
 ```
 
-\---
+---
 
 ## 2\. Environment setup
 
