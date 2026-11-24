@@ -1,4 +1,5 @@
 # DeepPS:  Generative mass spectrometry simulation enables highly accurate de novo peptide sequencing and peptide database search
+<img width="2369" height="1983" alt="Github" src="https://github.com/user-attachments/assets/2004fc6c-def3-4129-8c70-1eb6520f6dd2" />
 
 
 The official code repository for DeepPS. This repository provides the complete implementation for training and inference of DeepPS. DeepPS is a Transformer-based neural network that predicts theoretical MS/MS spectra from peptide sequences and precursor charge states. The repository also includes downstream analysis pipelines for de novo peptide rescoring, database search, 1% FDR evaluation, case studies, and cosine-similarity analysis on the MassIVE-KB dataset.
