@@ -138,11 +138,12 @@ not required for basic DeepPS model training or spectrum prediction.
 
 ---
 ### 2.7 Download model checkpoint of DeepPS
-Place the downloaded model checkpoint into "runs"
+Place the downloaded model checkpoint into "ModelCheckpoint"
 https://drive.google.com/file/d/1_TLpY7NFlfVuJdubj8fXIpZV-iB9yX77/view?usp=sharing
 
 ### 2.8 Download model checkpoint of pi-PrimeNovo
-
+Place the downloaded model checkpoint into "piprime_embedding"
+https://drive.google.com/file/d/1H5fDD0RpOZUZ_UDRZcGUE1qOqg0u8bqm/view?usp=drive_link
 ## 3. Data preprocessing: MassiveKB → average spectra → 39×46×6 NPZ
 
 Filters peaks, averages spectra per peptide, and converts them into the grid used
