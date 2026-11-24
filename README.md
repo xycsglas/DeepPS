@@ -953,7 +953,4 @@ Schmidt, A. et al. The quantitative and condition-dependent Escherichia coli pro
 
 Eloff, K., Kalogeropoulos, K., Mabona, A. *et al.* InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments. *Nat Mach Intell* **7**, 565–579 (2025). (**Snake Venoms, Candidatus "Scalindua brodae", HeLa degradome**)
 
-## 15. Notes
-
-* All commands are run under `deepps_0918_release/`; relative paths resolve from there;
 
