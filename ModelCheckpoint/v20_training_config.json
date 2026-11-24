@@ -1,0 +1,27 @@
+{
+  "v20_identity": {
+    "version": "v20",
+    "phase": "z23_amplitude_first_dual_focus"
+  },
+  "v20_runtime": {
+    "v20_output_dir": "/home/wangyuhang/seq2mass/runs/v200918_massivekb46",
+    "v20_train_npz": "/home/wangyuhang/datasets/merged_Train",
+    "v20_val_npz": "/home/wangyuhang/datasets/single_npz/val.npz",
+    "v20_test_npz": "/home/wangyuhang/datasets/single_npz/test.npz",
+    "v20_gpu": "0",
+    "v20_epochs": "10",
+    "v20_batch_size": "64",
+    "v20_lr": "0.001",
+    "v20_weight_decay": "0.0003",
+    "v20_d_model": "256",
+    "v20_n_heads": "8",
+    "v20_n_layers": "6",
+    "v20_ff_dim": "1024",
+    "v20_dropout": "0.15",
+    "v20_num_workers": "8",
+    "v20_no_packed": false,
+    "v20_backbone_weight": "1.0",
+    "v20_strict_presence_weight": "0.30",
+    "v20_group_family_focus_weight": "0.40"
+  }
+}
